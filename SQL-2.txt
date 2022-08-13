@@ -1,0 +1,72 @@
+https://demoqa.com/alerts
+
+Create Data Base:
+CREATE DATABASE databasename;
+Drop data base:
+-----------------------------
+Drop database:
+DROP DATABASE databasename;
+---------------------------------------------------------------
+The CREATE TABLE statement is used to create a new table in a database.
+
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+------------------------------------------
+Drop table
+------------------------------------------
+DROP TABLE table_name;
+------------------------------------------
+Alter Table:
+-----------------
+ALTER TABLE table_name
+ADD column_name datatype;
+------------
+ALTER TABLE Customers
+ADD Email varchar(255);
+
+Drop table
+--------------
+ALTER TABLE table_name
+DROP COLUMN column_name;
+------------------------
+ALTER TABLE Customers
+DROP COLUMN Email;
+
+Modify: 
+-----------
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
+
+***********************************************************
+Insert into Statement
+----------------------
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+or
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+
+
+
+
+
+
+
+
+The SELECT statement is used to select data from a database.
+-------------------------------------------------------------
+SELECT column1, column2, ...
+FROM table_name;
+SELECT * FROM table_name;
