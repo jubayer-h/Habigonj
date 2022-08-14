@@ -1,0 +1,23 @@
+
+Nested Frames:
+******
+A frame inside another frame is there i.e called nested frame.
+
+driver.switchTo().frame("parent").switchTo().frame("child");
+
+
+Scenario: i am going to handle the check box
+
+driver.switchTo().frame("frame1").switchTo().frame("frame3");
+WebElement checkbox=driver.findElement(By.xpath("//input[@id='a']");
+checkbox.click();
+
+
+
+
+
+
+//ul[@id='mainMenuFirstLevelUnorderedList']/li/a/b
+
+
+https://github.com/jubayer-h/Habigonj.git
