@@ -1,0 +1,157 @@
+//name=
+
+
+
+
+
+
+
+
+
+
+
+//input[@id='email-address']
+
+
+
+
+
+        //span[text()='español -']
+        
+
+
+//input[@name='lop']
+
+//span[text()='Hello, Sign in']
+
+//iframe[@class='demo-frame']
+
+
+//span[text()='right click me']
+
+
+
+
+
+//button[text()='Click for JS Alert']
+
+
+
+
+
+//a[text()='Home']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ynJG9R
+
+//input[@id='gh-ac']
+
+//input[@type='submit']
+
+
+//a[text()='All Parts & Accessories']
+
+//table[@id='webtable']/tbody
+
+
+JavascriptExecutor js=(JavascriptExecutor)driver;
+js.executeScript("document.getElementById('txtUsername').value='Admin';");
+
+you have not ID and then we use : 
+WebElement user=driver.findElement(By.xpath("//input[@name='txtUsername']"));
+		js.executeScript("arguments[0].value='Admin';",user);
+
+
+
+
+
+
+
+
+
+//div[@id=social-icons']/a[2]
+//i[@class='fa fa-search']
+
+
+//span[@class='download-app']
+<iframe src="SingleFrame.html" id="singleframe" name="SingleFrame" style="float: left;height: 300px;width: 600px">
+
+                            <p>Your browser does not support iframes.</p>
+
+                        </iframe>
+
+
+//input[@type='test']
+
+
+
+
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt
+http://demo.automationtesting.in/Frames.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//input[@type='password']
+
+
+
+//div[contains(@class,'uiStickyPlaceholderInput')]/div[@class='placeholder']
+
+
+class="uiStickyPlaceholderInput uiStickyPlaceholderEmptyInput"
+
+
+(//input[@type='text'])[4]
+
+parent to child
+
+//div[@id='forgotPasswordLink']/a
+if multiple child then 
+parent tag/child tag[index]
+
+
+
+child to parent
+
+syntax 1:
+ChildXpath/..(dot dot)
+
+//input[@id='txtUsername']/..
+
+syntax 2:
+ childxpath/parent::parenttagName
+
+//input[@id='txtUsername']/parent::div
+
+
+//input[@name='sex']
+
+
+//input[@type='password']
