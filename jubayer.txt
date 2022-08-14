@@ -1,0 +1,8 @@
+Hello XXX,Good Morning.
+I am Jubayer,I am from Michigan.Currently, i am working PNC company/Macy's
+Department store company, Its a US based company. Previously worked in Atlas and gigco. Both are us based companies.
+I am having 4 years experience in various domains like Insurance domain, ecommerce domains.
+I am having experience in various testing like manual testing, Selenium Automation testing,DB Testing,API with Postman.
+I automated testcases for  Department Store project. Department Store has web applications.These applications developed by java languge. So we built a framework which is named as depStore automation framework.
+DepStore frame work is integrated with testng to run all the testcases paralle and priority wise.
+This is about me. I will be happy to share my personal and educational details if you are intrested.
